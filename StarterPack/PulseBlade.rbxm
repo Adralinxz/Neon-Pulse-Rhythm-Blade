@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmime:version="2" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Tool" referent="RBX0">
+		<Properties>
+			<string name="Name">Pulse Blade</string>
+			<Content name="TextureId"><url>http://www.roblox.com/asset/?id=0</url></Content>
+			<bool name="Enabled">true</bool>
+			<CoordinateFrame name="Grip">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="ToolTip">Hold to charge, release to strike!</string>
+			<bool name="RequiresHandle">false</bool>
+		</Properties>
+		<Item class="Part" referent="RBX1">
+			<Properties>
+				<string name="Name">Handle</string>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<Color3 name="Color">0.10000000149011612,0.10000000149011612,0.10000000149011612</Color3>
+				<float name="Decay">0</float>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">3</token>
+				<token name="Material">216</token>
+				<string name="Name">Handle</string>
+				<float name="Reflectance">0</float>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+	<token name="TopSurface">0</token>
+	<token name="TopSurfaceInput">0</token>
+	<float name="SizeX">0.5</float>
+	<float name="SizeY">0.5</float>
+	<float name="SizeZ">5</float>
+	<token name="Shape">1</token>
+	<Vector3 name="Position">
+		<X>0</X>
+		<Y>1.5</Y>
+		<Z>0</Z>
+	</Vector3>
+	<CoordinateFrame name="CFrame">
+		<X>0</X>
+		<Y>1.5</Y>
+		<Z>0</Z>
+		<R00>1</R00>
+		<R01>0</R01>
+		<R02>0</R02>
+		<R10>0</R10>
+		<R11>1</R11>
+		<R12>0</R12>
+		<R20>0</R20>
+		<R21>0</R21>
+		<R22>1</R22>
+	</CoordinateFrame>
+			</Properties>
+			<Item class="SpecialMesh" referent="RBX2">
+				<Properties>
+					<string name="Name">BladeMesh</string>
+					<token name="LODX">0</token>
+					<token name="LODY">0</token>
+					<string name="MeshId"></string>
+					<string name="Name">BladeMesh</string>
+					<token name="ObjectType">0</token>
+					<token name="TextureId"></token>
+					<token name="VertexColor">0</token>
+					<Vector3 name="Scale">
+						<X>0.2</X>
+						<Y>0.2</Y>
+						<Z>2</Z>
+					</Vector3>
+					<token name="MeshType">3</token>
+				</Properties>
+			</Item>
+			<Item class="PointLight" referent="RBX3">
+				<Properties>
+					<string name="Name">BladeLight</string>
+					<Color3 name="Color">0,0.8,1</Color3>
+					<float name="Brightness">2</float>
+					<float name="Range">10</float>
+				</Properties>
+			</Item>
+			<Item class="Trail" referent="RBX4">
+				<Properties>
+					<string name="Name">BladeTrail</string>
+					<Color3 name="Color">
+						<Keypoint>
+							<time>0</time>
+							<value>0,0.8,1</value>
+						</Keypoint>
+						<Keypoint>
+							<time>1</time>
+							<value>0,0.8,1</value>
+						</Keypoint>
+					</Color3>
+					<float name="Length">0.5</float>
+					<float name="Transparency">
+						<Keypoint>
+							<time>0</time>
+							<value>0.4</value>
+						</Keypoint>
+						<Keypoint>
+							<time=1</time>
+							<value>1</value>
+						</Keypoint>
+					</Transparency>
+					<float name="Width">0.2</float>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="LocalScript" referent="RBX5">
+			<Properties>
+				<bool name="Disabled">false</bool>
+				<string name="Name">BladeController</string>
+				<string name="Source">-- Pulse Blade Controller
+-- Simple version to start
+
+local Tool = script.Parent
+local Handle = Tool:WaitForChild("Handle")
+local BladeMesh = Handle:WaitForChild("BladeMesh")
+local BladeLight = Handle:WaitForChild("BladeLight")
+local BladeTrail = Handle:WaitForChild("BladeTrail")
+
+local isCharging = false
+local chargeLevel = 0
+local chargeStartTime = 0
+
+local function updateBlade()
+	local brightness = 0.2 + (chargeLevel * 0.8)
+	BladeLight.Brightness = brightness * 3
+	BladeLight.Color = Color3.new(0, 0.4 + chargeLevel * 0.6, 0.8 + chargeLevel * 0.2)
+	BladeMesh.Scale = Vector3.new(0.2 + chargeLevel * 0.3, 0.2 + chargeLevel * 0.3, 2)
+	BladeTrail.Enabled = chargeLevel > 0.1
+end
+
+Tool.Activated:Connect(function()
+	isCharging = true
+	chargeStartTime = tick()
+	
+	local connection
+	connection = game:GetService("RunService").RenderStepped:Connect(function()
+		if not isCharging then
+			connection:Disconnect()
+			return
+		end
+		local elapsed = tick() - chargeStartTime
+		chargeLevel = math.min(elapsed * 0.5, 1.0) -- Charge over 2 seconds
+		updateBlade()
+	end)
+	
+	wait(0.1) -- Minimum charge time
+	isCharging = false
+	if connection then connection:Disconnect() end
+	
+	-- Simple strike effect
+	BladeLight.Brightness = 5
+	wait(0.1)
+	updateBlade()
+end)
+</Source>
+			</Properties>
+		</Item>
+	</Item>
+</roblox>
